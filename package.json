@@ -9,7 +9,10 @@
   "author": "neha",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "*",
     "express": "^4.17.1",
+    "html": "^1.0.0",
+    "jade": "^1.11.0",
     "mysql": "^2.17.1"
   }
 }
