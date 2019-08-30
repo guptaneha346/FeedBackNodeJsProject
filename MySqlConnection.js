@@ -7,16 +7,22 @@ var con = mysql.createConnection({
   database: "feedback"
 });
 
-con.connect(function(err) {
+con.connect(function (err) {
   if (err) throw err;
   console.log("Connected!");
-  var sql = "INSERT INTO example (id,name,email) VALUES (1, 'neha','neha@gmail.com')";
-
-  con.query(sql, function (err, result) {
-    if (err) throw err;
-    console.log("1 record inserted");
-  });
 });
+
+const executeQuery = function (query) {
+  console.log("Executing query: " + query);
+
+  con.query(query, function (error) {
+    if (error) throw error;
+  });
+};
+
+exports.executeQuery = executeQuery;
+
+
 
 
 
