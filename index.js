@@ -15,7 +15,7 @@ app.get('/', function (req, res) {
 })
 
 app.post('/submit', function (req, res) {
-    var sql = "insert into feedbacktable values('1','" + req.body.subject + "','"
+    var sql = "insert into feedbacktable values(null,'" + req.body.subject + "','"
         + req.body.creater + "','" + req.body.traineename + "','" + req.body.empcode +
         "','" + req.body.rating1 + "','" + req.body.rating2 + "','" + req.body.rating3 +
         "','" + req.body.rating4 + "','" + req.body.rating5 + "','" + req.body.suggestion + "')";
