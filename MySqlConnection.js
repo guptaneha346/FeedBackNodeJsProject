@@ -15,10 +15,15 @@ con.connect(function (err) {
 const executeQuery = function (query) {
   console.log("Executing query: " + query);
 
-  con.query(query, function (error) {
+  con.query(query, function (error,result) {
     if (error) throw error;
+    //res.send(JSON.stringify({"status": 200, "error": null, "response": results}));
   });
+
+  
 };
+
+
 
 exports.executeQuery = executeQuery;
 

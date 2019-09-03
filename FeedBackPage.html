@@ -1,40 +1,90 @@
 <!DOCTYPE html>
 <html>
+
 <body>
+  <form action="/submit" method="POST">
+    <h2 style="margin-left:500px">Training Evaluation From</h2>
+    <br>
+    
+    <p>Training title:&nbsp;&nbsp;<input type="text" name="subject" placeholder="NodeJs Training" value="NodeJs Training"></p>
+    <p>Creater:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="creater" placeholder="HR" value="HR"></p>
 
-<h2>FEEDBACK Form</h2>
-<br>
-<p>Subject:        <input type="text" name="firstname" placeholder="NodeJs Training" value=""></p>
-<form action="/">
-  Trainee Name:
-  <input type="text" name="firstname" value="">
-  
-  Employee Code:
-  <input type="text" name="lastname" value="">
+    Trainee Name:
+    <input type="text" name="traineename" placeholder="Full Name">
+
+    Employee Code:
+    <input type="text" name="empcode" value="">
+    <br><br>
+    <p>we value four feedback,kindly rate your experience as per the below table: MARKING SCALE:0-poor,1-Below
+      2-Average,2-Average,3-Fine,4-Good,5-Excellent
+
+    </p>
+    <table border="1">
+      <tr>
+          <th>Sl.#</th>
+        <th>Attribute</th>
+        <th>Rating(out of 5)</th>
+      </tr>
+      <tr> 
+        <td>1</td>
+        <td>The state objective of the training were met</td>
+        <td><input type="text" name="rating1" value=""></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>The content of the course was organised and easy to understand</td>
+        <td><input type="text" name="rating2" value=""></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>The trainer promoted adequate participation and ensured that discussion was
+          focused
+        </td>
+        <td><input type="text" name="rating3" value=""></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>The trainer was well prepared and able to clarify your doubts</td>
+        <td><input type="text" name="rating4" value=""></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>The trainer explained the concepts using relevant examples</td>
+        <td><input type="text" name="rating5" value=""></td>
+      </tr>
+     
+    </table>
+    <br><br>
+    <table border="1">
+      <th>Infrastructure abt IT services were appropriately managed in the training session or not? if not,
+        the please share your feedback /suggestion.
+      </th>
+      <tr>
+        <td><textarea name="suggestion1" style="width:1400px"></textarea></td>
+      </tr>
+    </table>
   <br><br>
-<p>Give your Rating out of 5
-   1-poor 2-Average,3-Fn,3-Good,5-Verygood,
-
-</p>
-<table border="1">
-  <tr>
-    <th>Subject1</th>
-    <th>Rating</th>
-  </tr>
-  <tr>
-    <td>text</td>
-    <td><input type="text" name="subject1"></td>
-  </tr>
-  <tr>
-    <td>text</td>
-    <td><input type="text" name="subject1"></td>
-  </tr>
-</table>
-<br><br>
-  <input type="submit" value="Submit">
-</form> 
-
+  <table border="1">
+      <th>Post this programme,one thing that you will start doing differently at work would be.
+        
+      </th>
+      <tr>
+        <td><textarea name="suggestion2" style="width:1000px"></textarea></td>
+      </tr>
+    </table>
+    <br><br>
+    <table border="1">
+        <th>Do you have any suggestions for the improvement of this training?
+        </th>
+        <tr>
+          <td><textarea name="suggestion3" style="width:700px"></textarea></td>
+        </tr>
+      </table>
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
 
 
 </body>
+
 </html>
