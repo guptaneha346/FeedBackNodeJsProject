@@ -18,7 +18,7 @@ app.get('/', function (req, res) {
 });
 
     const querySchema = Joi.object({
-    traineename: Joi.string().required(),
+       traineename: Joi.string().required(),
     empcode: Joi.string().required(),
     rating1: Joi.string().required(),
     rating2: Joi.string().required(),
@@ -27,7 +27,7 @@ app.get('/', function (req, res) {
     rating5: Joi.string().required()
 })
 
-app.post('/submit', validator.query(querySchema), function (req, res) {
+app.post('/submit',  function (req, res) {
     var sql = "insert into feedbacktable values(null,'" + req.body.subject + "','"
         + req.body.creater + "','" + req.body.traineename + "','" + req.body.empcode +
         "','" + req.body.rating1 + "','" + req.body.rating2 + "','" + req.body.rating3 +
