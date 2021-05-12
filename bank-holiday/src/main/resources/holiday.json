@@ -1,0 +1,214 @@
+[
+  {
+
+    "day": "Friday",
+    "date": "01-01-2021",
+    "description": "New Year's Day",
+    "timezone" : [
+      "America/Los_Angeles",
+      "America/Sao_Paulo",
+      "Australia/Darwin",
+      "Australia/Sydney",
+      "America/Argentina/Buenos_Aires",
+      "Africa/Cairo",
+      "America/Anchorage"
+    ]
+  },
+  {
+
+    "day": "Monday",
+    "date": "18-01-2021",
+    "description": "Martin Luther King, Jr. Day (Birthday of Martin Luther King, Jr.)",
+    "timezone" : [
+      "America/Sao_Paulo",
+      "Asia/Dhaka",
+      "Africa/Harare",
+      "America/St_Johns",
+      "America/Chicago"
+    ]
+  },
+
+  {
+    "day": "Monday",
+    "date": "15-02-2021",
+    "description": "President’s Day (Washington’s Birthday)",
+    "timezone" : [
+      "Asia/Shanghai",
+      "Africa/Addis_Ababa",
+      "Europe/Paris"
+    ]
+  },
+  {
+
+    "day": "Monday",
+    "date": "31-05-2021",
+    "description": "Memorial Day",
+    "timezone" : [
+      "America/Indiana/Indianapolis",
+      "Asia/Kolkata",
+      "Asia/Tokyo"
+    ]
+  },
+
+  {
+
+    "day": "Monday",
+    "date": "05-07-2021",
+    "description": "Independence Day",
+    "timezone" : [
+      "Pacific/Apia",
+      "Asia/Yerevan",
+      "Pacific/Auckland"
+    ]
+  },
+  {
+
+    "day": "Monday",
+    "date": "06-09-2021",
+    "description": "Labor Day",
+    "timezone" : [
+
+    ]
+  },
+  {
+
+    "day": "Monday",
+    "date": "11-10-2021",
+    "description": "Columbus Day (Indigenous People’s Day)",
+    "timezone" : [
+
+    ]
+  },
+  {
+
+    "day": "Thursday",
+    "date": "11-11-2021",
+    "description": "Veterans Day",
+    "timezone" : [
+
+    ]
+  },
+  {
+
+    "day": "Thursday",
+    "date": "25-11-2021",
+    "description": "Thanksgiving Day",
+    "timezone" : [
+
+    ]
+  },
+
+  {
+
+    "day": "Friday",
+    "date": "25-12-2021",
+    "description": "Christmas Day",
+    "timezone" : [
+      "America/Sao_Paulo"
+    ]
+  },
+  {
+
+    "day": "Saturday",
+    "date": "01-01-2022",
+    "description": "New Year's Day",
+    "timezone" : [
+
+    ]
+  },
+  {
+
+    "day": "Monday",
+    "date": "17-01-2022",
+    "description": "Martin Luther King, Jr. Day (Birthday of Martin Luther King, Jr.)",
+    "timezone" : [
+
+    ]
+  },
+
+  {
+    "day": "Monday",
+    "date": "21-02-2022",
+    "description": "President’s Day (Washington’s Birthday)",
+    "timezone" : [
+
+    ]
+  },
+  {
+
+    "day": "Monday",
+    "date": "30-05-2022",
+    "description": "Memorial Day",
+    "timezone" : [
+
+    ]
+  },
+
+  {
+
+    "day": "Monday",
+    "date": "04-07-2022",
+    "description": "Independence Day",
+    "timezone" : [
+
+    ]
+  },
+  {
+
+    "day": "Monday",
+    "date": "05-09-2022",
+    "description": "Labor Day",
+    "timezone" : [
+
+    ]
+  },
+  {
+
+    "day": "Monday",
+    "date": "10-10-2022",
+    "description": "Columbus Day (Indigenous People’s Day)",
+    "timezone" : [
+
+    ]
+  },
+  {
+
+    "day": "Friday",
+    "date": "11-11-2022",
+    "description": "Veterans Day",
+    "timezone" : [
+
+    ]
+  },
+  {
+
+    "day": "Thursday",
+    "date": "24-11-2022",
+    "description": "Thanksgiving Day",
+    "timezone" : [
+
+    ]
+  },
+
+  {
+
+    "day": "Monday",
+    "date": "25-12-2022",
+    "description": "Christmas Day",
+    "timezone" : [
+
+    ]
+  }
+
+
+]
+
+
+
+
+
+
+
+
+
+
